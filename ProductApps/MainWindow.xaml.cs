@@ -40,6 +40,8 @@ namespace ProductApps
 
                 totalChargeTextBox.Text = (myPayment + 25.0m).ToString();
 
+                totalChargeTextBoxAfter.Text = (myPayment + 25.0m + 5.0m).ToString();
+
             }
             catch (FormatException)
             {

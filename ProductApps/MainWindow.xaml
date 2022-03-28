@@ -23,7 +23,7 @@
             Content="Total Charge after adding &#xA; the delivery charge ($25)" 
             HorizontalAlignment="Left" 
             Height="43" 
-            Margin="46,230,0,0" 
+            Margin="18,200,0,0" 
             VerticalAlignment="Top"
             Width="150"/>
 
@@ -31,12 +31,33 @@
             Name="totalChargeTextBox" 
             HorizontalAlignment="Left" 
             Height="24" 
-            Margin="196,239,0,0" 
+            Margin="179,209,0,0" 
             TextWrapping="Wrap" 
             Text="" 
             VerticalAlignment="Top" 
             Width="96"/>
         <!--ADDED Label-->
+
+
+        <!--ADDED Label 1-->
+        <Label 
+            Content="Total Charge after adding &#xA; the wrap charge ($5)" 
+            HorizontalAlignment="Left" 
+            Height="43" 
+            Margin="24,248,0,0" 
+            VerticalAlignment="Top"
+            Width="150"/>
+
+        <TextBox 
+            Name="totalChargeTextBoxAfter" 
+            HorizontalAlignment="Left" 
+            Height="24" 
+            Margin="179,255,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top" 
+            Width="96"/>
+        <!--ADDED Label 1-->
 
 
         <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
