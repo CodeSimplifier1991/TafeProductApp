@@ -39,7 +39,7 @@
         <!--ADDED Label-->
 
 
-        <!--ADDED Label 1-->
+        <!--ADDED Wrap cost-->
         <Label 
             Content="Total Charge after adding &#xA; the wrap charge ($5)" 
             HorizontalAlignment="Left" 
@@ -57,7 +57,28 @@
             Text="" 
             VerticalAlignment="Top" 
             Width="96"/>
-        <!--ADDED Label 1-->
+        <!--ADDED Wrap cost-->
+
+        
+        <!--ADDED GST cost-->
+        <Label 
+            Content="Total Charge after adding GST @ 10%" 
+            HorizontalAlignment="Left" 
+            Height="43" 
+            Margin="10,291,0,-13.2" 
+            VerticalAlignment="Top"
+            Width="226"/>
+
+        <TextBox 
+            Name="totalChargeTextBoxAfterGST" 
+            HorizontalAlignment="Left" 
+            Height="24" 
+            Margin="226,291,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top" 
+            Width="96"/>
+        <!--ADDED GST cost-->
 
 
         <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>

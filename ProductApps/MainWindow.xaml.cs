@@ -40,7 +40,11 @@ namespace ProductApps
 
                 totalChargeTextBox.Text = (myPayment + 25.0m).ToString();
 
+                //Total charge after Wrap cost
                 totalChargeTextBoxAfter.Text = (myPayment + 25.0m + 5.0m).ToString();
+
+                //Total charge after GST cost
+                totalChargeTextBoxAfterGST.Text = ((myPayment + 25.0m + 5.0m) * 1.1m).ToString();
 
             }
             catch (FormatException)
